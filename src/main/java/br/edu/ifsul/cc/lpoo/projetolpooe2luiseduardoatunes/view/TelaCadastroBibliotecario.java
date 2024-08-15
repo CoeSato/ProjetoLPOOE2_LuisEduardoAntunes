@@ -36,6 +36,7 @@ public class TelaCadastroBibliotecario extends javax.swing.JDialog {
 
     public void setBibliotecario(Bibliotecario bibliotecario) {
         this.bibliotecario = bibliotecario;
+        txtNome.setText(bibliotecario.getNome());
     }
 
     /**
